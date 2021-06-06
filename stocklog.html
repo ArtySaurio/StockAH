@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logo.png">
+    <title>Stock - StockAH</title>
+    
+    <!-- Font awesome css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Stylesheets -->
+    <link href="css/crypto.css" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <main>
+        <section class="landing">
+            <!-- Barra de navegacion -->
+            <nav class="navbar navbar-expand-lg navbar-dark negro">
+                <a class="navbar-brand" href="indexlog.html"><img src="/img/logo.png" style="max-width: 60%;" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse columna" id="navbarText">
+                  <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link" href="indexlog.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/cryptolog.html">Crypto</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/stocklog.html">Stock</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/news.html">News</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class=" navbar-collapse justify-content-end">
+                    <li class="dropdown" style="margin-right: 4rem;">
+                        <a href="#" class=" dropdown-toggle text-white" data-toggle="dropdown"><i class="fas fa-user-circle"></i>  Username </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="profile.html" class="droptext"><i class="fa fa-cog"></i> Account</a></li>
+                            <li class="divider"></li>
+                            <li><a href="stock.html" class="droptext"><i class="fas fa-sign-out-alt"></i> Sign-out</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </nav>
+
+            <!-- Contenido principal de la web -->
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="main-box clearfix">
+                    <div class="table-responsive">
+                      <table class="table user-list">
+                        <thead>
+                          <tr>
+                            <th><span>Name</span></th>
+                            <th class="text-center"><span>Last Price</span></th>
+                            <th class="text-center"><span>24h Change</span></th>
+                            <th class="text-center"><span>Market Cap</span></th>
+                            <th class="text-center"><span>Payment Method</span></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <img src="/img/stock/coke.png" style="height: 35px; margin-top: 0.5rem;">
+                              <a href="#" class="user-link">KO</a>
+                              <span class="user-subhead" style="margin-left: 0.5rem;">Coca-Cola</span>
+                            </td>
+                            <td style="text-align: center; color: rgb(14, 203, 129); font-weight: 400px; font-size: 14px;">
+                              $56.30
+                            </td>
+                            <td class="text-center">
+                              <span class="label label-default" style="color: rgb(14, 203, 129);">+1.08%</span>
+                            </td>
+                            <td style="text-align: center;">
+                              $242,492.88M
+                            </td>
+                            <td style="width: 20%;">
+                              <a class="table-link" style=" margin-left: 2.2rem;">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-paypal" style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fas fa-university " style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img src="/img/stock/disney.png" style="height: 35px; margin-top: 0.5rem;">
+                              <a href="#" class="user-link">DIS</a>
+                              <span class="user-subhead" style="margin-left: 0.5rem;">Walt Disney</span>
+                            </td>
+                            <td style="text-align: center; color: rgb(14, 203, 129); font-weight: 400px; font-size: 14px;">
+                              $177.38
+                            </td>
+                            <td class="text-center">
+                              <span class="label label-default" style="color: rgb(14, 203, 129);">+0.53%</span>
+                            </td>
+                            <td style="text-align: center;">
+                              $321,925.40M
+                            </td>
+                            <td style="width: 20%;">
+                              <a class="table-link" style="margin-left: 2.2rem;">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-paypal" style="font-size: 30px;"></i>
+                                  
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fas fa-university " style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img src="/img/stock/ibm.png" style="height: 35px; margin-top: 0.5rem;">
+                              <a href="#" class="user-link">IBM</a>
+                              <span class="user-subhead" style="margin-left: 0.5rem;">IBM</span>
+                            </td>
+                            <td style="text-align: center; color: rgb(246, 70, 93); font-weight: 400px; font-size: 14px;">
+                              $147.56
+                            </td>
+                            <td class="text-center">
+                              <span class="label label-default" style="color: rgb(246, 70, 93);">-1.28%</span>
+                            </td>
+                            <td style="text-align: center;">
+                              $131,720.40M
+                            </td>
+                            <td style="width: 20%;">
+                              <a class="table-link" style="margin-left: 2.2rem;">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-paypal" style="font-size: 30px;"></i> 
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fas fa-university " style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img src="/img/stock/facebook.png" style="height: 35px; margin-top: 0.5rem;">
+                              <a href="#" class="user-link">FB</a>
+                              <span class="user-subhead" style="margin-left: 0.5rem;">Facebook</span>
+                            </td>
+                            <td style="text-align: center; color: rgb(14, 203, 129); font-weight: 400px; font-size: 14px;">
+                              $330.35
+                            </td>
+                            <td class="text-center">
+                              <span class="label label-default" style="color: rgb(14, 203, 129);">+1.32%</span>
+                            </td>
+                            <td style="text-align: center;">
+                              $936,757.13M
+                            </td>
+                            <td style="width: 20%;">
+                              <a class="table-link" style="margin-left: 2.2rem;">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-paypal" style="font-size: 30px;"></i> 
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fas fa-university " style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img src="/img/stock/google.png" style="height: 35px; margin-top: 0.5rem;">
+                              <a href="#" class="user-link">GOOG</a>
+                              <span class="user-subhead" style="margin-left: 0.5rem;">Google</span>
+                            </td>
+                            <td style="text-align: center; color: rgb(14, 203, 129); font-weight: 400px; font-size: 14px;">
+                              $2451.76
+                            </td>
+                            <td class="text-center">
+                              <span class="label label-default" style="color: rgb(14, 203, 129);">+1.96%</span>
+                            </td>
+                            <td style="text-align: center;">
+                              $1,643,080.14M
+                            </td>
+                            <td style="width: 20%;">
+                              <a class="table-link" style="margin-left: 2.2rem;">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-paypal" style="font-size: 30px;"></i> 
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fas fa-university " style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <img src="/img/stock/intel.png" style="height: 35px; margin-top: 0.5rem;">
+                              <a href="#" class="user-link">INTC</a>
+                              <span class="user-subhead" style="margin-left: 0.5rem;">Intel</span>
+                            </td>
+                            <td style="text-align: center; color: rgb(246, 70, 93); font-weight: 400px; font-size: 14px;">
+                              $57.37
+                            </td>
+                            <td class="text-center">
+                              <span class="label label-default" style="color: rgb(246, 70, 93);">-7.89%</span>
+                            </td>
+                            <td style="text-align: center;">
+                              $231,660.06M
+                            </td>
+                            <td style="width: 20%;">
+                              <a class="table-link" style="margin-left: 2.2rem;">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fab fa-cc-paypal" style="font-size: 30px;"></i> 
+                                </span>
+                              </a>
+                              <a class="table-link">
+                                <span class="fa-stack">
+                                  <i class="fas fa-university " style="font-size: 30px;"></i>
+                                </span>
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <tr>
+                              <td>
+                                <img src="/img/stock/tesla.png" style="height: 35px; margin-top: 0.5rem;">
+                                <a href="#" class="user-link">TSLA</a>
+                                <span class="user-subhead" style="margin-left: 0.5rem;">Tesla</span>
+                              </td>
+                              <td style="text-align: center; color: rgb(14, 203, 129); font-weight: 400px; font-size: 14px;">
+                                $599.05
+                              </td>
+                              <td class="text-center">
+                                <span class="label label-default" style="color: rgb(14, 203, 129);">+5.71%</span>
+                              </td>
+                              <td style="text-align: center;">
+                                $577,080.64M
+                              </td>
+                              <td style="width: 20%;">
+                                <a class="table-link" style="margin-left: 2.2rem;">
+                                  <span class="fa-stack">
+                                    <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                  </span>
+                                </a>
+                                <a class="table-link">
+                                  <span class="fa-stack">
+                                    <i class="fab fa-cc-paypal" style="font-size: 30px;"></i> 
+                                  </span>
+                                </a>
+                                <a class="table-link">
+                                  <span class="fa-stack">
+                                    <i class="fas fa-university " style="font-size: 30px;"></i>
+                                  </span>
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <tr>
+                                <td>
+                                  <img src="/img/stock/netflix.png" style="height: 35px; margin-top: 0.5rem;">
+                                  <a href="#" class="user-link">NFLX</a>
+                                  <span class="user-subhead" style="margin-left: 0.5rem;">Netflix, Inc.</span>
+                                </td>
+                                <td style="text-align: center; color: rgb(246, 70, 93); font-weight: 400px; font-size: 14px;">
+                                  $494.74
+                                </td>
+                                <td class="text-center">
+                                  <span class="label label-default" style="color: rgb(246, 70, 93);">-1.08%</span>
+                                </td>
+                                <td style="text-align: center;">
+                                  $219,370.00M
+                                </td>
+                                <td style="width: 20%;">
+                                  <a class="table-link" style="margin-left: 2.2rem;">
+                                    <span class="fa-stack">
+                                      <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                    </span>
+                                  </a>
+                                  <a class="table-link">
+                                    <span class="fa-stack">
+                                      <i class="fab fa-cc-paypal" style="font-size: 30px;"></i> 
+                                    </span>
+                                  </a>
+                                  <a class="table-link">
+                                    <span class="fa-stack">
+                                      <i class="fas fa-university " style="font-size: 30px;"></i>
+                                    </span>
+                                  </a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <tr>
+                                  <td>
+                                    <img src="/img/stock/nike.png" style="height: 35px; margin-top: 0.5rem;">
+                                    <a href="#" class="user-link">NKE</a>
+                                    <span class="user-subhead" style="margin-left: 0.5rem;">NIKE</span>
+                                  </td>
+                                  <td style="text-align: center; color: rgb(246, 70, 93); font-weight: 400px; font-size: 14px;">
+                                    $133.74
+                                  </td>
+                                  <td class="text-center">
+                                    <span class="label label-default" style="color: rgb(246, 70, 93);">-0.43%</span>
+                                  </td>
+                                  <td style="text-align: center;">
+                                    $211,300.37M
+                                  </td>
+                                  <td style="width: 20%;">
+                                    <a class="table-link" style="margin-left: 2.2rem;">
+                                      <span class="fa-stack">
+                                        <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                      </span>
+                                    </a>
+                                    <a class="table-link">
+                                      <span class="fa-stack">
+                                        <i class="fab fa-cc-paypal" style="font-size: 30px;"></i> 
+                                      </span>
+                                    </a>
+                                    <a class="table-link">
+                                      <span class="fa-stack">
+                                        <i class="fas fa-university " style="font-size: 30px;"></i>
+                                      </span>
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <tr>
+                                    <td>
+                                      <img src="/img/stock/microsoft.png" style="height: 35px; margin-top: 0.5rem;">
+                                      <a href="#" class="user-link">MSFT</a>
+                                      <span class="user-subhead" style="margin-left: 0.5rem;">Microsoft</span>
+                                    </td>
+                                    <td style="text-align: center; color: rgb(14, 203, 129); font-weight: 400px; font-size: 14px;">
+                                      $250.79
+                                    </td>
+                                    <td class="text-center">
+                                      <span class="label label-default" style="color: rgb(14, 203, 129);">+2.07%</span>
+                                    </td>
+                                    <td style="text-align: center;">
+                                      $1,888,840.47M
+                                    </td>
+                                    <td style="width: 20%;">
+                                      <a class="table-link" style="margin-left: 2.2rem;">
+                                        <span class="fa-stack">
+                                          <i class="fab fa-cc-visa" style="font-size: 30px;"></i>
+                                        </span>
+                                      </a>
+                                      <a class="table-link">
+                                        <span class="fa-stack">
+                                          <i class="fab fa-cc-paypal" style="font-size: 30px;"></i> 
+                                        </span>
+                                      </a>
+                                      <a class="table-link">
+                                        <span class="fa-stack">
+                                          <i class="fas fa-university " style="font-size: 30px;"></i>
+                                        </span>
+                                      </a>
+                                    </td>
+                                  </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            <!-- Footer Section -->
+            <div class="container-fluid mt-5 foot">
+              <div class="card mx-5">
+                  <div class="divider mb-4"> </div>
+                  <div class="row" style="font-size:10px;">
+                      <div class="col-md-6 col-sm-6 col-xs-6">
+                          <div class="pull-left">
+                              <p><i class="fa fa-copyright"></i> 2021 StockAH</p>
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-6">
+                          <div class="pull-right mr-4 d-flex policy">
+                              <div>Terms of Use</div>
+                              <div>Privacy Policy</div>
+                              <div>Cookie Policy</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            
+        </section>
+    </main>
+    <!-- Importacion de Bootstrap y Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: hidden;
+}
+/* Modificaciones de fondo depende del html */
+.log {
+    background: url(/img/fondologin.png);
+    background-size:cover;
+}
+.sign {
+    background: url(/img/fondosingup.png);
+    background-size:cover;
+}
+
+/* Contenido principal del login */
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+    border-radius: 40px !important;
+}
+.modal-content{
+    background-color: #222222;
+    padding: 0 20px;
+    box-shadow: 0px 0px 20px 0.01px #b9b9b9;
+    box-shadow: white;
+    border: 0px;
+}
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    border-radius: 5px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+.forgot{
+    padding: 5px 0;
+    margin-bottom: 1rem;
+}
+.forgot a{
+    color:#969696;
+}
+.textoinc {
+    font-family: 'Lora', serifd;
+}

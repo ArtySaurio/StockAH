@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.negro {
+    background-color: #222222;
+}
+.btn {
+    background-color: black;
+    border-color: black;
+    border-radius: 10px;
+}
+.texto {
+    margin-top: 1rem;
+    margin-bottom: 1re;
+}
+.columna {
+    text-align: center !important;
+}
+
+.page-footer{
+    margin-top: 2rem !important;
+    
+}
+/* Css para la barra de navegacion */
+.navbar {
+    background-color: #16151a;
+    margin-bottom: 0;
+	padding-top: 0;
+	border: 0;
+	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
+}
+.droptext {
+    color: #16151a;
+}
+.dropdown{
+    list-style-type: none;
+}
+.dropdown-menu{
+    margin-right: 0px !important;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #cc903d;
+}
+
+
+
+
+/* Footer CSS styles*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+.foot {
+    background-color: #16151a !important;
+    position:relative;
+    bottom: 0;
+}
+
+.card {
+    border-color: transparent;
+    padding: 2% 7%;
+    color: #646771;
+    background-color: #16151a
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+ul>li {
+    padding: 4px
+}
+
+ul>li:hover {
+    color: #cc903d;
+    cursor: pointer
+}
+
+hr {
+    border-width: 3px
+}
+
+.social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.social>i:hover {
+    color: #cc903d;
+    cursor: pointer
+}
+
+.policy>div {
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: white
+}
+
+.divider {
+    border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+
+.card{
+    background-color: white;
+    border-width: 0.1px;
+    border-color: #b4b4b4;
+    box-shadow: 0px 0px 5px 1px rgb(194, 192, 192);
+}
+
+.card-image-top{
+    border-radius: 5px; 
+}
+
+/* Crypto List Section */
+
+
+
+/* USER LIST TABLE */
+
+
