@@ -6,12 +6,12 @@ body {
 }
 /* Modificaciones de fondo depende del html */
 .log {
-    background: url(/StockAH/img/fondologin.png);
-    background-size:cover;
+    background: url(/StockAH/img/fondologin.png) !important;
+    background-size:cover !important;
 }
 .sign {
-    background: url(/StockAH/img/fondosingup.png);
-    background-size:cover;
+    background: url(/StockAH/img/fondosingup.png) !important;
+    background-size:cover !important;
 }
 
 /* Contenido principal del login */
