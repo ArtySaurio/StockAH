@@ -6,11 +6,11 @@ body {
 }
 /* Modificaciones de fondo depende del html */
 .log {
-    background: url(/StockAH/img/fondologin.png);
+    background: url(./StockAH/img/fondologin.png);
     background-size:cover;
 }
 .sign {
-    background: url(/StockAH/img/fondosingup.png);
+    background: url(./StockAH/img/fondosingup.png);
     background-size:cover;
 }
 
