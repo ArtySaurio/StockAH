@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .negro {
     background-color: #222222;
 }
@@ -19,10 +18,8 @@
 .columna {
     text-align: center !important;
 }
-
 .page-footer{
     margin-top: 2rem !important;
-    
 }
 /* Css para la barra de navegacion */
 .navbar {
@@ -33,7 +30,6 @@
 	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
-
 .nav-link {
     color: white;
 }
@@ -49,7 +45,6 @@
 .dropdown-menu{
     margin-right: 0px !important;
 }
-
 /* Footer CSS styles*/
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
@@ -58,60 +53,45 @@
     position:relative;
     bottom: 0;
 }
-
 .card {
     border-color: transparent;
     padding: 2% 7%;
     color: #646771;
     background-color: #16151a
 }
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0
 }
-
 ul>li {
     padding: 4px
 }
-
 ul>li:hover {
     color: #cc903d;
     cursor: pointer
 }
-
 hr {
     border-width: 3px
 }
-
 .social>i {
     padding: 1%;
     font-size: 15px
 }
-
 .social>i:hover {
     color: #cc903d;
     cursor: pointer
 }
-
 .policy>div {
     padding: 4px
 }
-
 .heading {
     font-family: 'Titillium Web', sans-serif;
     color: white
 }
-
 .divider {
     border-top: 2px solid rgba(189, 196, 203, 0.5);
 }
-
-/* Crypto List Section */
-
-
-
 /* USER LIST TABLE */
 .user-list tbody td > img {
     position: relative;
@@ -129,7 +109,6 @@ hr {
 	font-size: 0.875em;
 	font-style: italic;
 }
-
 /* TABLES */
 .table {
     border-collapse: separate;
@@ -220,7 +199,6 @@ hr {
 .table a.table-link.danger:hover {
 	color: #dd504c;
 }
-
 .table-products tbody > tr > td {
 	background: none;
 	border: none;
